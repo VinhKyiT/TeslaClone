@@ -1,11 +1,13 @@
 import React from 'react';
 import {StatusBar, StyleSheet, View} from 'react-native';
-import CarItem from './components/carItem/index';
+import CarsList from './components/CarsList';
+import Header from './components/Header/index';
 
 const App = () => {
   return (
     <View style={styles.container}>
-      <CarItem />
+      <Header />
+      <CarsList />
       <StatusBar style="auto" />
     </View>
   );
